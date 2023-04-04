@@ -1,0 +1,82 @@
+#father{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 6px 14px 3px rgb(202 202 202);
+    display: flex;
+    justify-content: center;
+    width: min-content;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+#perfume-pic{
+    height: 410px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#white-background{
+border-radius: 20px;
+padding: 20px;
+width: 40vh;
+}
+
+#instad-of{
+    color: gray;
+    text-decoration: line-through 1px gray;
+    margin: 0%;
+}
+#price-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#the-price{
+    margin: 0%;
+    margin-right: 20px;
+    color: rgb(61,129,104);
+    
+}
+
+#second-p{
+    color: gray;
+}
+
+#page-title{
+    color: gray;
+    margin-top: 0%;
+}
+
+#add-to-cart-section{
+    margin: 0%;
+    background-color: rgb(61,129,104);
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 5px;
+    align-items: center;
+    width: 35vh;
+}
+.icon{
+  display: block;
+  width: 15px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#cart-icon{
+    background-image: url("./icon-cart.svg");
+}
+#add-to-cart{
+    color: white;
+    margin: 0%;
+    
+    padding: 10px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+}
